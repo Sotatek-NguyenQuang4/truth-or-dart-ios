@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3DF1982A1C64A700EED1A9 /* Classic.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 3D3DF1972A1C64A700EED1A9 /* Classic.geojson */; };
+		3D3DF1992A1C64AB00EED1A9 /* category.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 3D3DF1942A1C621500EED1A9 /* category.geojson */; };
 		3DCF3EEB2A18931500C774D7 /* Base_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF3EEA2A18931500C774D7 /* Base_SwiftUIApp.swift */; };
 		3DCF3EED2A18931500C774D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF3EEC2A18931500C774D7 /* ContentView.swift */; };
 		3DCF3EEF2A18931500C774D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF3EEE2A18931500C774D7 /* Assets.xcassets */; };
@@ -14,6 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D3DF1942A1C621500EED1A9 /* category.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = category.geojson; sourceTree = "<group>"; };
+		3D3DF1972A1C64A700EED1A9 /* Classic.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Classic.geojson; sourceTree = "<group>"; };
+		3D3DF19C2A1C656A00EED1A9 /* Teens.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Teens.geojson; sourceTree = "<group>"; };
+		3D3DF19D2A1C65BF00EED1A9 /* Party.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Party.geojson; sourceTree = "<group>"; };
+		3D3DF1A02A1C665000EED1A9 /* Hot.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Hot.geojson; sourceTree = "<group>"; };
+		3D3DF1A12A1C669C00EED1A9 /* Mixed.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Mixed.geojson; sourceTree = "<group>"; };
 		3DCF3EE72A18931500C774D7 /* Base-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Base-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCF3EEA2A18931500C774D7 /* Base_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base_SwiftUIApp.swift; sourceTree = "<group>"; };
 		3DCF3EEC2A18931500C774D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +63,12 @@
 				3DCF3EEC2A18931500C774D7 /* ContentView.swift */,
 				3DCF3EEE2A18931500C774D7 /* Assets.xcassets */,
 				3DCF3EF02A18931500C774D7 /* Preview Content */,
+				3D3DF1942A1C621500EED1A9 /* category.geojson */,
+				3D3DF1972A1C64A700EED1A9 /* Classic.geojson */,
+				3D3DF19C2A1C656A00EED1A9 /* Teens.geojson */,
+				3D3DF19D2A1C65BF00EED1A9 /* Party.geojson */,
+				3D3DF1A02A1C665000EED1A9 /* Hot.geojson */,
+				3D3DF1A12A1C669C00EED1A9 /* Mixed.geojson */,
 			);
 			path = "Base-SwiftUI";
 			sourceTree = "<group>";
@@ -125,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3DF1982A1C64A700EED1A9 /* Classic.geojson in Resources */,
+				3D3DF1992A1C64AB00EED1A9 /* category.geojson in Resources */,
 				3DCF3EF22A18931500C774D7 /* Preview Assets.xcassets in Resources */,
 				3DCF3EEF2A18931500C774D7 /* Assets.xcassets in Resources */,
 			);
